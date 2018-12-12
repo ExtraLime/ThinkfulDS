@@ -1,0 +1,66 @@
+This data is available from AirBNB. The data is from Montreal, QC.
+
+What is the most expensive listing?
+SELECT
+	price,
+	id,
+	host_name,
+	neighbourhood
+FROM	
+	listings
+ORDER BY
+	price DESC
+LIMIT 1
+(return)
+"10002"	"2809671"	"James"	"Le Plateau-Mont-Royal"
+The most expesnive listing is for Jame's Apartment located in Le Pateau-Mont-Royal neighbourhood.
+
+2. What neighbourhoods seems to be the most popular?
+Easy answer
+SELECT
+	neighbourhood,
+	AVG(reviews_per_month) arpm
+FROM
+	listings
+GROUP BY 1
+ORDER BY
+	arpm DESC 
+(return) "Ville-Marie"
+"Baie-d'Urfé"
+"Le Plateau-Mont-Royal"
+"Pointe-Claire"
+"Le Sud-Ouest"
+More details: (later)
+What time of year is the cheapest time to go to your city? 
+early and late may, however the most expensve is 55 at the end of april.
+SELECT 
+	date,
+	round(avg(REPLACE([price],'$','')),2) price	 
+FROM
+	calendar
+GROUP BY date
+ORDER BY price ASC
+"2016-05-04"	"26.86"
+"2016-05-05"	"30.01"
+"2016-05-21"	"30.85"
+"2016-05-20"	"31.96"
+"2016-05-06"	"32.6"
+What about the busiest?
+(maybe??)
+UPDATE calendar 	
+	set [available] = replace([available], 't', 1)
+UPDATE calendar 	
+	set [available] = replace([available], 'f', 0)
+
+SELECT
+	date,
+	round(avg(available),2) available
+FROM 
+	calendar
+GROUP BY date
+ORDER BY available ASC
+"2016-05-04"	"0.32"
+"2016-05-05"	"0.36"
+"2016-05-21"	"0.36"
+"2016-06-11"	"0.36"
+"2016-05-06"	"0.37"

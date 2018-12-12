@@ -1,0 +1,92 @@
+Question 1
+WITH 
+	raindur
+AS (
+	SELECT
+		date
+	FROM 
+		weather
+	WHERE
+		events = 'Rain'
+	GROUP BY 1
+)
+SELECT
+	trip_id,
+	duration,
+	DATE(end_date) tdate
+FROM 
+	trips
+JOIN	
+	raindur
+ON
+	raindur.date = tdate
+ORDER BY
+	duration DESC 
+LIMIT 3	
+
+Question 2
+SELECT
+	status.station_id,
+	stations.name,
+	COUNT(CASE WHEN docks_available=0 then 'full' END) maxocc
+FROM 
+	status
+JOIN 
+	stations
+ON
+	stations.station_id = status.station_id
+GROUP BY 1
+ORDER BY 
+	maxocc DESC
+LIMIT 1
+
+Question 3
+WITH 
+	docks
+AS(
+	SELECT
+		start_station,
+		COUNT(start_station) starts
+	FROM 
+		trips
+	GROUP BY 1
+)
+SELECT 
+	name,
+	starts,
+	dockcount	
+FROM
+	stations
+JOIN 
+	docks
+ON
+	docks.start_station = stations.name
+ORDER BY 
+	dockcount
+	
+Question 4.
+WITH 
+	rain
+AS (
+	SELECT 
+		date,
+		events
+	FROM 
+		weather
+	where
+		events like 'Rain'
+	GROUP BY 1
+)
+SELECT
+	date(start_date) rday,
+	max(duration),
+	trip_id,
+	events
+FROM 
+	trips
+JOIN 
+	rain
+ON 
+	rain.date = rday
+GROUP BY 1
+ORDER BY date

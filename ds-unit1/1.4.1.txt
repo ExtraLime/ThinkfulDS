@@ -1,0 +1,67 @@
+**1. Does a new supplement help people sleep better?**
+Two Versions:
+  1. Current Supplement 
+  2. New Supplement
+Sample:
+  A randomized group of current users of the current supplement divided in two.
+Hypothesis:
+  The new supplement will help people sleep better than the current supplement
+Outcomes:
+  Key Metric:
+     Quality of sleep
+      "We expect that those taking the new supplement will report better quality of sleep"
+Other variables to measure:
+  1. Duration of sleep
+  2. coffee intake
+
+**2. Will new uniforms help a gym's business?**
+TWO VERSIONS
+  1. Second week of april in current uniforms
+  2. Third week of april in new uniforms
+Sample:
+One week of gym frequenters
+
+Hypothesis:
+New uniforms will generate more business
+Outcomes: 
+ Key Metric: more sales = more usiness
+    "We expect sales (in everything) to be higher in the third week of april compared to the second week of april"
+Other variables to monitor
+  1. New Memberships
+  2. personal training sessions scheduled
+  
+**3. Will a new homepage improve my online exotic pet rental business?**
+Two Versions:
+1. Current homepage
+2. New homepage
+Sample:
+  Current renter database email addresses who click links from the store. Half the current homepage, and the other
+  half the new homepage.
+ Hypothesis:
+  A newhome page will improve the online exotic pet rental business.
+ Outcomes: 
+  Key Metric: rentals
+    "We expect that rentals will increase when current renters visit the new homepage"
+  Other variables to monitor:
+    Clicks
+    duration spent on homepage
+  
+**4. If I put 'please read' in the email subject will more people read my emails?**
+
+Two Versions:
+  1. An email with "please read" in subject
+  2. An email without "please read" in the subject
+ Sample:
+  all contacts
+ Hypothesis:
+  An email with "Please Read" in the subject will have more reads
+ Outcomes:
+  Key Metric: Responses
+  We expect that there will be more responses to an email with "Please Read" in the subject line
+ Other Variable to monitor:
+  reads from read recipts
+  auto-replies
+  return to sender
+ 
+ 
+    

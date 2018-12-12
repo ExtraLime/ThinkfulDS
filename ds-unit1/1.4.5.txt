@@ -1,0 +1,17 @@
+The Problem:
+	“These kids’ grade are just too good, we suspect that there is cheating taking place. Cheating allows students to 
+  potentially earn better grades than they deserve and is academically dishonest.”
+-Assumptions: a student can only cheat off the student directly to the right or left of themselves. 
+(otherwise the teacher is not doing their job)
+
+The Potential Solution:
+  A new testing taking method will be administered in an attempt to prevent cheating.  There will be two versions of the test.
+  Test A and Test B. The seating assignment will be fixed so that no adjacent rows will have the same test type (the students
+  to the left and right of any one student will have a different test type).
+
+We choose a class where we suspect cheating is taking place as the sample and review the scores on prior tests and seating 
+position (in the classroom) for the students for the year.
+
+After the tests have been scored, we will measure the class performance on the aggregate. If the mean score decreases by 
+15%, we can assume that we have prevented the cheating. If the mean score decreases but by less than a standard deviation, 
+we will examine the test scores and seating patterns for individuals over the year for other insight.

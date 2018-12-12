@@ -1,0 +1,39 @@
+1. You're testing advertising emails for a bathing suit company and you test one version 
+of the email in February and the other in May.
+    The initial design were the two versions of the email. They may have wanted to see 
+    which version would cause an increase in bathing suit sales. They were most likely 
+    measuring sales of bathing suits as a key metric and click through rate as another.
+    The problem is that (in the northern hemisphere) February is not bathing suit season. 
+    May is directly before bathing suit season. Regardless of which version was sent when, 
+    the bias would be toward higher sales in may as people prepare for summer. A way around 
+    this would be to test the two versions at the same time in May (dividing the sample)
+
+2.You open a clinic to treat anxiety and find that the people who visit show a higher rate of anxiety than the general population.
+   This is like saying I opened a bar and noticed that my customers drink more alcohol than 
+   the general population, or that my alcohol sales are higher than the average restaurant...
+   Assuming that the clinic was version 1 and a general clinic was version 2 and the sample 
+   is the general population.  The hypothesis could be that version 1 would attract visitors 
+   with a higher rate of anxiety than the general population. The metric being rate of anxiety.
+
+3.You launch a new ad billboard based campaign and see an increase in website visits in the first week.
+    Version 1 is the current ad campaign and version 2 is the new billboard campaign. 
+    The sample would be the general population passing by the billboards. the hypothesis 
+    is that as more people see the billboards, more people will visit the website.  
+    Increased web activity was the expected outcome.  One bias is the time frame. An ad campaign
+    (especially stationary) would need a longer time frame to actually measure its impact.
+    Other bias could include the placement of the billboard ads. If they place them in the 
+    a tech hot spot, you would expect better results than if was placed in a retirement community. This would also depend on what kind of products you are trying to advertise. 
+
+4. You launch a loyalty program but see no change in visits in the first week
+    This is similar to 3. The version 1 is the current state of affairs(non-loyalty), 
+    version 2 is the state of affairs (with loyalty). The sample would be the current customer
+    base. the hypothesis is that the loyalty program will increase visits. Outcomes(desired) 
+    was an increase in visits (key metric). A couple things to be corrected is the time frame 
+    to observe outcomes. The first week of a loyalty program doesn't give many customers to be
+    returning customers to take advantage of the loyalty program. Another problem is the key
+    metric, visits should be used to assess the loyalty program. (new customers would visit 
+    with out knowledge of the program)A better metric would be sales to returning customers.
+    If this were to increase over the first month, then we could speak to the efficacy of the
+    program.
+  
+  

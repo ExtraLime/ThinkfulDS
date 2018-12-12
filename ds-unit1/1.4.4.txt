@@ -1,0 +1,56 @@
+1. The Sith Lords are concerned that their recruiting slogan, "Give In to Your Anger," isn't very effective. 
+Darth Vader develops an alternative slogan, "Together We Can Rule the Galaxy." They compare the slogans on 
+two groups of 50 captured droids each. In one group, Emperor Palpatine delivers the "Anger" slogan. In the 
+other, Darth Vader presents the "Together" slogan. 20 droids convert to the Dark Side after hearing 
+Palpatine's slogan, while only 5 droids convert after hearing Vader's. The Sith's data scientist concludes 
+that "Anger" is a more effective slogan and should continue to be used.
+    The flaw in this experiment is that the sample consists of 'captured' droids (we wont go into the debate 
+    of whether star wars' droids can be 'angry') If we consider that droids are droids and not sentient, 
+    they experience anger nor do they have desires to rule the galaxy.  Assume the droids are sentient(one correction),
+    this experiment is still likely to produce skewed results in favor of EP's 'anger' slogan. The subjects are captive,
+    one would expect they would be angry and identify with the slogan.
+
+2. In the past, the Jedi have had difficulty with public relations. They send two envoys, Jar Jar Binks and 
+Mace Windu, to four friendly and four unfriendly planets respectively, with the goal of promoting favorable
+feelings toward the Jedi. Upon their return, the envoys learn that Jar Jar was much more effective than Windu:
+Over 75% of the people surveyed said their attitudes had become more favorable after speaking with Jar Jar,
+while only 65% said their attitudes had become more favorable after speaking with Windu. This makes Windu angry,
+because he is sure that he had a better success rate than Jar Jar on every planet. The Jedi choose Jar Jar to be 
+their representative in the future.
+  The first flaw to point out here that the sample is not randomized. The correction would be to send jar jar and 
+  mace to 2 friendlies and 2 unfriendlies. The second flaw is that given the sample was not randomized, a friendly
+  planet would have more potential respondents and those who responded are likely to respond more favorably, than 
+  the unfriendly planet. Lastly, based on maces claim that he had a better success rate than jar jar, we would need
+  to look at the results of the individual planets how the success rate differed by planet (simpson's paradox)
+  
+ 3. A company with work sites in five different countries has sent you data on employee satisfaction rates for workers
+ in Human Resources and workers in Information Technology. Most HR workers are concentrated in three of the countries,
+ while IT workers are equally distributed across worksites. The company requests a report on satisfaction for each 
+ job type. You calculate average job satisfaction for HR and for IT and present the report.
+    Assuming that the data is detailed, there is no flaw yet. Other assumptions or conditions must be met to proceed 
+    with an analysis. It must be taken into account that 'satisfaction' means different things to different people, 
+    this would need to be normalized somehow. The error would be the satisfaction rates of employees in the HR departments.
+    The average would be the simple average and not a weighted average, in other words the satisfactions rates of HR employees
+    would reflect close the rates of the three countries where HR is concentrated. The correction for this would be to take 
+    a weighted average (SUMPRODUCT)/SAMPLESIZE
+   
+4. When people install the Happy Days Fitness Tracker app, they are asked to "opt in" to a data collection scheme where 
+their level of physical activity data is automatically sent to the company for product research purposes. During your 
+interview with the company, they tell you that the app is very effective because after installing the app, the data show 
+that people's activity levels rise steadily.
+  The flaw in the analysis lies and the key metric and failure to control for other variables. There may be some bias for
+  new users who are getting into or getting back into fitness, and they want the app to track. With this assumption, it 
+  would be normal to see peoples activity increase gradually regardless of the app. The seasoned gym rat on the other hand
+  who begins using the app may take time to discover new features to track as they go, so steadily the *records* of activity 
+  increase. Maybe they released the app in June, when activities naturally increase. The last correction would be the key metric. The metric should be gains in what is being tracked. (Bench Press, distance on the treadmill, reps on the pull up bar, etc.) This way you could actually tell whether the tracking is effective. (this could require some information about their fitness levels before installing the app)
+ 
+5. To prevent cheating, a teacher writes three versions of a test. She stacks the three versions together, first all copies
+of Version A, then all copies of Version B, then all copies of Version C. As students arrive for the exam, each student takes
+a test. When grading the test, the teacher finds that students who took Version B scored higher than students who took either
+Version A or Version C. She concludes from this that Version B is easier, and discards it.
+  The teacher is wrong because it is possible that the students who picked up the TEST B are better performing on average.
+  To correct for this the test order should randomized before the students arrive, ie ABC*. This could still lead to inaccurate
+  results. A better design to determine how hard a test is would be to separate the students by skill level (in a class of 27
+  students,9 top performing, 9 mid, an 9 low. With samples similar enough to one another, you would be able to extract meaningful comparisons between the tests.
+  It seems that the desired outcome is to prevent cheating, however the key metric appears to be the diffiulty of one of
+  the versions of the test. She control for the seating in the classroom.

@@ -1,0 +1,29 @@
+You now have a fairly substantial starting toolbox of supervised learning methods that you can use to tackle a host of exciting problems. To make sure all of these ideas are organized in your mind, please go through the list of problems below. For each, identify which supervised learning method(s) would be best for addressing that particular problem. Explain your reasoning and discuss your answers with your mentor.
+
+    1. Predict the running times of prospective Olympic sprinters using data from the last 20 Olympics.
+        A basic multivariate linear regression would be suffificient.
+          -The times (outcome) are continuous, and most likely normaly distributed. One could use a small set of features with low correlation, such age weight and training hours,etc.
+          
+    2. You have more features (columns) than rows in your dataset.
+        Depending on the specific nature of the problem different approaches may be taken. I would start with used PCA on the  the continuous data. A ridge or lasso regression could be used to examine which features actually matter. A random forest could do the same and give you back the feature importance.
+    
+    3. Identify the most important characteristic predicting likelihood of being jailed before age 20.
+        Most likely a model that has a feature importance method. Like Random Forest or Gradient boosting. 
+      
+    4. Implement a filter to “highlight” emails that might be important to the recipient
+        Naive Bayes would work fine depending on how accurate you may want it. You could use other more advanced regex terms to really detect what you want.
+      
+    5. You have 1000+ features.
+        You would want to use some kind of dimentionality reduction technique, such as PCA or PLSR as they seem to clean up some of the multicolinearity of the variables. Then, depending on the problem (class vs regr) you could choose any model really.
+      
+    6. Predict whether someone who adds items to their cart on a website will purchase the items.
+       Use a classfication model. KNN or Logistic Regression
+    
+    7. Your dataset dimensions are 982400 x 500
+        Try to reduce data and features. Use ensemble modeling to get feature importance. The swtich to regression.
+   
+    8. Identify faces in an image.
+     - This model seems like a classification model. I would use KNN based on features of from the extracted photos(shape,texture,depth of facial features). You could also use SVC a support vector classifier. The based on all of these features, the model should be able to classify anyone it has seen before.
+        
+    9. Predict which of three flavors of ice cream will be most popular with boys vs girls.
+      This model would require a multiclass classification model. SVM can do this. Also logistic regression can handle this as well.

@@ -1,0 +1,1867 @@
+ 
+ 
+ 
+ PROFESSOR: OK. 
+ Hi. 
+ I thought I'd give a short
+lecture about how logarithms 
+ are actually used. 
+ So a little bit practical. 
+ And also, it naturally
+comes in, how quickly 
+ do functions grow? 
+ Which functions grow
+faster than others? 
+ And I made a list of a bunch
+of functions that 
+ we see all the time. 
+ Linear growth. 
+ Just, the function goes up
+along the straight line. 
+ Proportional to x, linear could
+have been a c times x, 
+ still linear. 
+ Here that's called polynomial
+growth, like some power of x. 
+ Here is faster growth. 
+ We introduced e to the x, and
+I'll take this chance to bring 
+ in 2 to the x and 10 to the x. 
+ Especially 10 to the x, because
+that'll lead us to 
+ logarithms to base 10, and those
+are handy in practice. 
+ So that's exponential growth. 
+ And here are some that
+grow faster still. 
+ x factorial, n factorial grows
+really fast. And n to the nth 
+ or x to the xth is a function
+that grows still faster. 
+ And of course, we could
+cook up a function the 
+ grew faster than that. 
+ X to the x to the x power would
+really just take off. 
+ And we could find functions
+that grow more slowly. 
+ But let's just take these
+and let x be 1000. 
+ Just to have a kind of realistic
+idea of how these 
+ compare when x is 1000. 
+ OK. 
+ So I'm skipping to c. 
+ So x will be 1000. 
+ 10 cubed. 
+ Let me just write
+it as 10 cubed. 
+ So x is going to be 1000. 
+ And because these are big
+numbers, I'm going to write 
+ them as powers of 10. 
+ OK. 
+ so how about 1000 squared? 
+ 10 cubed squared will
+be 10 to the sixth. 
+ 1000 cubed, we're up
+to 10 to the ninth. 
+ And onwards. 
+ Like, this is where the
+economists are working. 
+ The national debt is
+in this range. 
+ OK. 
+ Now fortunately, it's
+not in this range. 
+ 2 to the thousandth power. 
+ And if I want to be able to
+compare it, I'll write that 
+ approximately as 10 to-- 
+ well, if it's 2 to the
+thousandth power, it'll be 10 
+ to a smaller power. 
+ And 300 is pretty close for
+2 to the thousandth. 
+ Then e to the thousandth, that's
+going to be bigger than 
+ 2. e is 2.7 et cetera. 
+ This is more like 10 to the-- 
+ I think this is right--
+about 434, maybe. 
+ And 10 to the thousandth-- 
+ well, I can write
+that right in. 
+ 10 to the thousandth
+when x is 1000. 
+ OK. 
+ So that's the one that
+is exactly right. 
+ And also, I could write in 1000
+to the thousandth power. 
+ What power of 10 will this be? 
+ 10 to the what? 
+ 1000 to the thousandth power,
+I think, is 10 to the three 
+ thousandth. 
+ Why do I think that? 
+ Because 1000 itself is
+10 times 10 times 10. 
+ Three of them, right? 
+ And then we do that 1000 times,
+so we have a string of 
+ 3000 10s multiplying
+each other. 
+ And that's what 10 to the
+three thousandth is. 
+ And you might wonder about
+a thousand factorial. 
+ Let me make the rough
+estimate. 
+ A big number in factorial,
+order of magnitude, is 
+ something like, it doesn't grow
+as fast as this, because 
+ this is x times x minus
+1 times x minus 2. 
+ 1000 times 999 times 998. 
+ So we're not repeating
+1000 every time. 
+ And the difference-- 
+ it turns out that this number
+divided by this number, x to 
+ the x over e to the
+x, is the right 
+ general picture for factorial. 
+ So that would be, if I divide 10
+to the 3000 by 10 and this 
+ power, what do I do? 
+ In a division, I do a
+subtraction of exponents, 
+ because I have that many fewer
+10s multiplying each other. 
+ So I think it would be 3000,
+but I don't want the full 
+ 3000, because I take away e to
+the thousandth, 434 of them. 
+ So that's about-- 
+ 2566 is close enough, anyway. 
+ OK. 
+ Giant numbers. 
+ Giant numbers. 
+ And of course you saw that I
+didn't write it out with 1 and 
+ 3000, or whatever, zeros. 
+ Hopeless. 
+ OK. 
+ In other words, it's the
+exponent that gives me 
+ something I can really
+work with. 
+ And the exponent is
+the logarithm. 
+ That's what logarithms are. 
+ They are the exponents. 
+ And when they're the exponent
+with a 10, I call 10 the base. 
+ And I'm speaking about
+logarithms to the base 10. 
+ Can I just copy those
+numbers again? 
+ And then I want to write their
+logarithms. Because it's the 
+ logarithms that kind of remain
+reasonable-looking numbers but 
+ tell you very nicely what's
+growing fast. 
+ So let me write out again. 
+ 10 cubed, 10 sixth, 10 to the
+ninth is polynomial growth 
+ starting with the first power. 
+ Then I'll write down 10 to
+the three hundredth, 
+ approximately. 
+ 10 to the 434, I think,
+is about right. 
+ And then 10 to the 1000. 
+ And then I had 10 to the 2566
+as something, roughly 1000 
+ factorial, and then
+10 to the 3000. 
+ OK. 
+ I just copied those
+numbers again. 
+ And now I plan to take their
+logarithms. I can see what's 
+ happening with logarithms.
+The logarithm of 10 
+ to the ninth is-- 
+ if the base is 10-- 
+ the logarithm of 10 to the
+ninth is the nine. 
+ This has logarithm 6. 
+ This has logarithm 3. 
+ So you see-- 
+ well. 
+ If we took the logarithm of the
+national debt, it wouldn't 
+ look too serious. 
+ It would just be up around
+9 moving toward 10. 
+ But what I'm using it for
+here is to get some 
+ reasonable way to see-- 
+300
+ Of course, that's big. 
+ For a logarithm, that's
+a very big number. 
+ 434, 1000. 
+ These are climbing up. 
+ 2566 and 3000. 
+ OK. 
+ So these are the logs. 
+ Just to repeat. 
+ If I wanted this growth, this
+list of functions by how fast 
+ they grow, where would
+log x appear 
+ in my list of functions? 
+ It would be way at
+the left end. 
+ Slower than x. 
+ Much slower than x. 
+ Log x grows very slowly,
+as we see here. 
+ And then if you wanted one that
+really grew slowly, it 
+ would be log of log x. 
+ That creeps along. 
+ Eventually gets to-- 
+ passes any number. 
+ But x has to be enormous. 
+ And one more little comment
+before I begin to use some 
+ things graphically. 
+ Because that's the other part
+of this talk, is log-- 
+ the graphs. 
+ Using logarithms in graphs. 
+ A little point. 
+ You might ask, what about
+functions that decay? 
+ What would be the corresponding
+functions here 
+ that decay? 
+ Let me write them here. 
+ Decay. 
+ By that I mean, headed
+for 0 instead 
+ of headed for infinity. 
+ Well, 1 over x, 1 over x
+squared, 1 over x cubed. 
+ Those functions go to
+0 faster and faster. 
+ Now, what about these? 
+ The next list would
+be 1 over-- 
+ I'm dividing, but 1
+over 2 to the x. 
+ 1 over e to the x. 
+ Can I write that in
+a better way? 
+ e to the minus x. 
+ 1 over 10 to the x. 
+ Those are going to
+0 like crazy. 
+ And of course, if I keep
+going, even worse. 
+ So like, x to the minus x power
+would be really small. 
+ So my point is just that we
+have a scale here that not 
+ only gives us a handle of how
+to deal with things that are 
+ growing very fast, but also
+things that are going to 0 
+ very fast. The other, the
+negative logarithms. The 
+ logarithms of these things would
+be minus 3, minus 6, 
+ minus 9 and so on, if
+I divide by one. 
+ Good. 
+ All right. 
+ So that suggests the idea. 
+ Now I want to introduce the
+idea of a log scale. 
+ So I'm just going to think of
+a usual straight line, on 
+ which we usually mark out 0,
+1, 2, 3, minus 1, minus 2. 
+ But on this log scale, the
+center point, the 0, I'm 
+ really graphing the logarithm
+of x instead of x. 
+ That's the point. 
+ That in this log scale,
+what I'm picturing 
+ along here will be-- 
+ this number will be 10 to
+the 0 power, which is 1. 
+ The next one will be 10. 
+ The next one will be 100. 
+ The next one will be 1000. 
+ So you see, within
+this picture-- 
+ on a graph that we could
+draw and look at 
+ on a printed page-- 
+ we can get big numbers by going
+from the ordinary 1, 2, 
+ 3 scale to the log scale, which
+puts these points in 
+ this order. 
+ And let me put some
+of the other ones. 
+ Now, what one point
+goes there? 
+ 1/10. 
+ Every time I go that far,
+I'm multiplying by 10. 
+ When I go this way, I'm
+dividing by 10. 
+ Up there, this is the number
+1/10, which is the same as 10 
+ to the minus 1 power, right? 
+ Here is one hundredth. 
+ Here is one thousandth. 
+ And so on. 
+ So this log scale is able to
+deal with very small numbers 
+ and very large numbers
+in a reasonable way. 
+ And everybody sees the point
+here that really, what it is 
+ is the logarithms.
+So this is 0. 
+ This is 1, 2, 3, and so on. 
+ Minus 1, minus 2, minus 3. 
+ If I'm graphing, really, these
+are the logarithms of x. 
+ And I'm doing logs to base 10
+again, because that gives us 
+ nice numbers. 
+ OK. 
+ By the way, what's
+that number? 
+ What's that number, halfway
+between there and there? 
+ It's not halfway between 1 and
+10 in the ordinary sense, 
+ which is whatever,
+5 and a half. 
+ No way. 
+ Halfway between here is-- 
+ you know what it will be? 
+ It'll be square root of 10. 
+ 10 to the 1/2 power. 
+ The half is here. 
+ The log is a half, so
+the number is the 
+ square root of 10. 
+ That's about 3, a little
+more than 3. 
+ And what would be here, would
+be 10 to the minus 1/2. 
+ 1 over square root of 10. 
+ So you see that picture. 
+ Oh, I have another question,
+before I use the scales. 
+ What if I like the powers
+of 2 better? 
+ In many cases, we might
+prefer powers of 2. 
+ Well, if I plotted
+the numbers-- 
+ I'm looking at this log scale. 
+ And suppose I plot the numbers
+1, 2, 4, 8, whatever. 
+16
+ What could you tell
+me about those? 
+ Well, I know where 1 is. 
+ It's right there. 
+ That's a 1. 
+ Well, two would be a little
+further over. 
+ Then 4, then 8 would come
+before 10, and 16 
+ would come after 10. 
+ I pointed there, but 16
+would not come there. 
+ 16 would be a lot closer,
+I think, in here. 
+ What's the deal with 1, 2, 4,
+8, 16 on this log scale? 
+ They would be equally spaced. 
+ Of course, the spacing would be 
+ smaller than the 10 spacing. 
+ If every time I multiplied by
+2, I go the same distance. 
+ After I'd done it
+about 10 times-- 
+ multiplied by 2 10 times-- so
+that's 2 to the tenth power is 
+ close to 1000. 
+ So 10 powers of 2 would bring
+me pretty near there. 
+ Anyway. 
+ And here's one more question. 
+ Where is 0? 
+ If my value that I wanted to
+plot happened to be 0, where 
+ is it on this graph? 
+ It's not there. 
+ You can't plot 0
+on a log scale. 
+ It's way down at the-- 
+ you know, it's at the minus
+infinity end of the graph. 
+ Infinity is up there at that
+end, and 0 is down here. 
+ OK. 
+ Good. 
+ So can we use that log scale? 
+ How do we use that log scale? 
+ Let me give you an idea
+for what use that 
+ log scale might be. 
+ Practical use. 
+ Suppose I know, or have reason
+to believe, that my function 
+ might be of the form y is
+something times x to the nth. 
+ I have some quantity y. 
+ The output when the
+input is x. 
+ But I don't know these,
+that number a. 
+ So I've done an experiment. 
+ And I would like to know
+what is a, and 
+ especially, what is n? 
+ I would like to know how the
+growth is progressing. 
+ And I'm just taking simple
+growth law here. 
+ OK. 
+ I would graph it. 
+ I'd get a bunch of points, I
+put them on a graph, and I 
+ look at the graph. 
+ Now if I just graph these
+things, if I just graph that 
+ y, here is x and here's
+y, suppose n is 1.5. 
+ Suppose my growth rate,
+and this is very 
+ possible, is x to the 1.5. 
+ And a is some number-- 
+ who knows. 
+ Could even be 1. 
+ Suppose a was 1. 
+ So then I'm graphing
+y as x to the 1.5. 
+ What does that look like? 
+ Well, it looks like that. 
+ The problem is that if
+the real growth-- 
+ the real good relation-- 
+ see, I would have a few
+points that might be 
+ close to that curve. 
+ But if I'm looking that curve,
+I frankly could not tell 1.5 
+ from 1.6 growth rate. 
+ The truth is, I couldn't
+tell it from 2. 
+ I couldn't tell what the actual
+growth rate is from my 
+ graph, which has a little error,
+so I'm not too sure. 
+ And the point is x to the 1.5
+and x to the 2 would be all-- 
+ If I sketch the graph, it
+would look like that. 
+ But go to the log scale. 
+ Go to a log log graph. 
+ So I'm going to take logs
+of both sides, and 
+ look and plot that. 
+ So I take the logs of both
+sides, so I take the log of my 
+ outputs y, and now this is a
+product of that times that. 
+ What's the rule for
+logarithms? 
+ Add logarithms. So this
+would be log a plus 
+ log of x to the nth. 
+ But now what's the log
+of x to the nth? 
+ Beautiful again. 
+ This is x times x
+times x n times. 
+ At least of n is an integer. 
+ Think of it as x multiplied
+by itself n times. 
+ When I take the logarithm,
+I add n times. 
+ Log of x to the nth
+is n log x. 
+ Now that, let me
+graph that now. 
+ This is now a log picture. 
+ So I'm graphing log y against
+log x, which was the whole 
+ point of my log scale, to
+think of doing this. 
+ And what kind of a curve will
+I see from this equation on 
+ this graph paper? 
+ A straight line. 
+ That is some constants
+plus some slope. 
+ n will be the slope
+times the x. 
+ It's like capital Y is capital
+A plus n times 
+ capital X or something. 
+ But better for me to
+write log, so we 
+ remember what it is. 
+ So on this paper, suppose-- 
+ I did the example
+x to the 1.5. 
+ OK. 
+ So in this example, a
+is 1 and n is 1.5. 
+ So what would my points
+look like here? 
+ Now remember, I should really
+allow negative logarithms. 
+ Because this is the
+point, right? 
+ This is x equals 1 here. 
+ The log is 0, but
+the number is 1. 
+ Ha, OK. 
+ So when the log is 0, you
+see, it's going to 
+ be a straight line. 
+ And actually, when I took a to
+be 1, its logarithm will be 0. 
+ The line would go right
+through there. 
+ It would have a slope
+of 1 and 1/2. 
+ My points will be really
+close to line. 
+ I measure out, if I go out a
+distance 1, then I go up a 
+ distance 1.5. 
+ Right? 
+ Up 1.5. 
+ When I go across by 1 on
+the log picture, it 
+ could be down here. 
+ My numbers could be
+smaller or larger. 
+ A straight line. 
+ I can get out a ruler and
+estimate the slope far more 
+ accurately than I could hear
+with a lot more software. 
+ OK. 
+ So that's an important, very
+important instance in which we 
+ wonder what the rate of
+growth is, and the 
+ graph shows it to us. 
+ But just make a little point
+that I've put some points 
+ here, like near a line, and
+that raises another graph 
+ question of very great
+importance. 
+ Suppose you have some
+experiments that put points 
+ close to a line, but not
+right on a line. 
+ You want to fit a line
+close to them. 
+ You want to fit the best line
+to the experimental points. 
+ How do you fit a
+straight line? 
+ That's an important thing. 
+ And let me save that for a
+future chance, because I want 
+ to tell you about it. 
+ The best, the standard
+way is what's 
+ called the least squares. 
+ So least squares is a very
+important application. 
+ And the best line, it turns out,
+is a calculus problem. 
+ So for the moment let's
+pretend they're 
+ right on the line. 
+ Its slope, which we easily find,
+tells us this number. 
+ May I mention one
+other behavior? 
+ So another possibility. 
+ If y is not growing
+polynomially, but suppose y is 
+ growing exponentially-- 
+ I'll just put it here,
+because it's not 
+ going to be a big deal. 
+ y is some-- 
+ call it b, e to the c x. 
+ So that's a different
+type of growth. 
+ That's the big part of the
+today's lecture, is to say, 
+ this is a quite different
+growth. 
+ But it would be equally hard-- 
+ or even harder-- 
+ to find this growth rate c
+from an ordinary graph. 
+ The graph would take off even
+faster than this one. 
+ You couldn't see what's
+happening. 
+ The good idea is, take
+logarithms. But what do we 
+ want to do? 
+ We'll take the logarithm
+of y-- 
+ log y, as before-- 
+ will be the log of B plus
+the log of e to the cx. 
+ Oh, maybe I should have made
+this 10 to the cx, just to 
+ make it all-- 
+ instead of the e, I
+could use the 10. 
+ Whatever. 
+ Because I've been talking about
+logarithms to the base 
+ 10, so let me use the
+powers of 10 here. 
+ What's the logarithm
+of 10 to the cx? 
+ When the base is 10, the
+logarithm is the exponent. 
+ c times x. 
+ So what am I seeing
+in this equation? 
+ That's an equation when I've
+taken logarithms, my big 
+ numbers become reasonable. 
+ And also, very small numbers
+become reasonable. 
+ And I get a straight
+line again. 
+ I get a straight line. 
+ But it's not in this
+log paper. 
+ The logarithm of y, the y-axis,
+the vertical axis, is 
+ still log scale. 
+ But you see it's ordinary
+x there now. 
+ So I don't use log
+x for this one. 
+ Just ordinary x. 
+ It's semi log paper. 
+ Logarithm in the in the vertical
+direction, ordinary 
+ in the x direction. 
+ OK. 
+ Good. 
+ Now I just want to add
+one sort of example. 
+ Because it's quite important
+and also quite practical. 
+ May I tell you about-- 
+ Let me ask you the question,
+and see if you get an idea. 
+ Because this is like
+basic to calculus. 
+ Let me talk about-- 
+ this e will stand for error. 
+ Error e. 
+ And what error am
+I talking about? 
+ I'm talking about the error as
+the difference between the 
+ derivative-- 
+ I have some function f of x. 
+ And there's its derivative. 
+ And I compare that with
+delta f over delta x. 
+ So what do I know? 
+ I know that as this is a
+function of delta x, I'm 
+ comparing the instant slope
+versus the average slope over 
+ a distance delta x. 
+ So it's not 0, right? 
+ This one is a finite movement. 
+ Delta x produces a finite
+moment delta f. 
+ As delta x goes to 0, that
+does approach this. 
+ So here's my question. 
+ My question is, this is
+approximately some constant 
+ times delta x to some power. 
+ And my question is, what is n? 
+ How close? 
+ What's a rough estimate of how
+near the delta f over delta x 
+ is to the actual derivative? 
+ OK. 
+ So I have to tell you what I
+meant by delta f over delta x. 
+ I meant what you also meant, f
+at x plus delta x minus f at x 
+ divided by delta x. 
+ In other words, that's
+the familiar delta f. 
+ Moving forward from x, I would
+call that a forward 
+ difference, a forward delta f. 
+ Because I'm starting at x, and
+I think of delta x as moving 
+ me a little bit forward. 
+ So I get the delta f, I divide
+by the delta x, and that's 
+ what this thing means. 
+ And do you know what n is? 
+ Let me connect it
+to my pictures. 
+ If I tried to graph this,
+I'd have a graph. 
+ You know. 
+ Here's my delta x
+and here's my e. 
+ This difference says delta x
+goes to 0, it goes to 0. 
+ You know, if delta x is
+small, e is small. 
+ If I divide delta x by 10,
+e divides by something. 
+ I don't even know if you
+see it on the camera. 
+ The graph has gone into a-- 
+ well, a black hole, or
+a chalk hole, or a 
+ white hole, or something. 
+ It's just completely
+invisible. 
+ I can't see the slope
+of this thing. 
+ But if I did it on log log
+paper, I'd see it clearly. 
+ And the answer would be 1. 
+ The error, the difference
+between derivative and average 
+ slope, goes like delta
+x to the first power. 
+ And then we can see later where
+that 1 comes from, and 
+ we can see where that a is. 
+ It's all in Taylor series. 
+ But here's my practical point. 
+ There is a much better delta
+f than this one. 
+ A much better delta
+f over delta x. 
+ An average slope that's much
+more accurate, and that in 
+ calculation I would
+always use. 
+ And the trouble with this
+one is, it's lopsided. 
+ It's one-sided. 
+ I only went forward. 
+ Or if delta x is negative,
+I'm only going backwards. 
+ And it turns out that the
+average of forward and 
+ backward is like centered
+at difference. 
+ So let me tell you a center
+difference. f at 
+ x plus delta x. 
+ So look a little forward, but
+take the difference from 
+ looking a little backward. 
+ That would be my change in f. 
+ But now what do I divide by
+to get a reasonable slope? 
+ Well, this is the change in f
+going from minus delta x-- 
+ delta x to the left of the point
+to delta x to the right 
+ of the point. 
+ The real movement there in
+the x-axis was a movement 
+ of two delta xs. 
+ So I would call this a
+center difference. 
+ Can I write that word
+centered down? 
+ And if I use that, which is a
+lot smarter if I'm practically 
+ wanting to get pictures,
+then what happens? 
+ So if this is now instead of
+this, instead of choosing this 
+ lopsided, simple, familiar but
+not that great difference, if 
+ I go for this one, the answer
+is, n changes to 2. 
+ n is 2 for this one. 
+ The accuracy is way, way better
+for center differences. 
+ And the point about the log
+graphs is, if I plot those 
+ points on the graph I would see
+that slope of 2 in the log 
+ log graph, it would be again-- 
+ in ordinary graph, it would
+become invisible 
+ as delta x got small. 
+ But on a log scale, I'd
+see it perfectly. 
+ OK. 
+ Some practical uses of
+logarithms. Now that we no 
+ longer use slide rules,
+this is what we do. 
+ Thanks. 
+ 
+ 
+ 
+ Okay. 
+ This is the lecture on the
+singular value decomposition. 
+ But everybody calls it the SVD. 
+ So this is the final and best
+factorization of a matrix. 
+ Let me tell you what's coming. 
+ The factors will be, orthogonal
+matrix, diagonal matrix, 
+ orthogonal matrix. 
+ So it's things that
+we've seen before, 
+ these special good matrices,
+orthogonal diagonal. 
+ The new point is that we
+need two orthogonal matrices. 
+ A can be any matrix whatsoever. 
+ Any matrix whatsoever has this
+singular value decomposition, 
+ so a diagonal one in the middle,
+but I need two different -- 
+ probably different orthogonal
+matrices to be able to do this. 
+ Okay. 
+ And this factorization
+has jumped into importance 
+ and is properly, I think,
+maybe the bringing together 
+ of everything in this course. 
+ One thing we'll bring together
+is the very good family 
+ of matrices that
+we just studied, 
+ symmetric, positive, definite. 
+ Do you remember the
+stories with those guys? 
+ Because they were symmetric,
+their eigenvectors were 
+ orthogonal, so I could produce
+an orthogonal matrix -- 
+ this is my usual one. 
+ My usual one is the
+eigenvectors and eigenvalues In 
+ the symmetric case, the
+eigenvectors are orthogonal, 
+ so I've got the good --
+my ordinary s has become 
+ an especially good Q. 
+ And positive definite,
+my ordinary lambda 
+ has become a positive lambda. 
+ So that's the singular
+value decomposition in case 
+ our matrix is symmetric
+positive definite -- 
+ in that case, I
+don't need two -- 
+ U and a V -- one orthogonal
+matrix will do for both sides. 
+ So this would be
+no good in general, 
+ because usually the eigenvector
+matrix isn't orthogonal. 
+ So that's not what I'm after. 
+ I'm looking for orthogonal
+times diagonal times orthogonal. 
+ And let me show you what that
+means and where it comes from. 
+ Okay. 
+ What does it mean? 
+ You remember the picture of
+any linear transformation. 
+ This was, like, the
+most important figure in 
+ And what I looking for now? 
+ A typical vector
+in the row space -- 
+ typical vector,
+let me call it v1, 
+ gets taken over to some vector
+in the column space, say u1. 
+ So u1 is Av1. 
+ Okay. 
+ Now, another vector gets
+taken over here somewhere. 
+ What I looking for? 
+ In this SVD, this singular
+value decomposition, 
+ what I'm looking for is
+an orthogonal basis here 
+ that gets knocked over into an
+orthogonal basis over there. 
+ See that's pretty special,
+to have an orthogonal basis 
+ in the row space that goes over
+into an orthogonal basis -- 
+ so this is like a right angle
+and this is a right angle -- 
+ into an orthogonal basis
+in the column space. 
+ So that's our
+goal, is to find -- 
+ do you see how things
+are coming together? 
+ First of all, can I
+find an orthogonal basis 
+ for this row space? 
+ Of course. 
+ No big deal to find
+an orthogonal basis. 
+ Graham Schmidt tells
+me how to do it. 
+ Start with any old basis and
+grind through Graham Schmidt, 
+ out comes an orthogonal basis. 
+ But then, if I just take any
+old orthogonal basis, then 
+ when I multiply by
+A, there's no reason 
+ why it should be
+orthogonal over here. 
+ So I'm looking for
+this special set 
+ up where A takes these basis
+vectors into orthogonal vectors 
+ over there. 
+ Now, you might have
+noticed that the null space 
+ I didn't include. 
+ Why don't I stick that in? 
+ You remember our usual figure
+had a little null space 
+ and a little null space. 
+ And those are no problems. 
+ Those null spaces
+are going to show up 
+ as zeroes on the
+diagonal of sigma, 
+ so that doesn't
+present any difficulty. 
+ Our difficulty is to find these. 
+ So do you see what
+this will mean? 
+ This will mean that A times
+these v-s, v1, v2, up to -- 
+ what's the dimension
+of this row space? 
+ Vr. 
+ Sorry, make that V a
+little smaller -- up to vr. 
+ So that's -- 
+ Av1 is going to be
+the first column, 
+ so here's what I'm achieving. 
+ Oh, I'm not only going
+to make these orthogonal, 
+ but why not make
+them orthonormal? 
+ Make them unit vectors. 
+ So maybe the unit vector
+is here, is the u1, 
+ and this might be
+a multiple of it. 
+ So really, what's happening
+is Av1 is some multiple of u1, 
+ right? 
+ These guys will be unit
+vectors and they'll 
+ go over into multiples
+of unit vectors 
+ and the multiple I'm not
+going to call lambda anymore. 
+ I'm calling it sigma. 
+ So that's the number --
+the stretching number. 
+ And similarly, Av2
+is sigma two u2. 
+ This is my goal. 
+ And now I want to express
+that goal in matrix language. 
+ That's the usual step. 
+ Think of what you want
+and then express it 
+ as a matrix multiplication. 
+ So Av1 is sigma one u1 -- 
+ actually, here we go. 
+ Let me pull out these -- 
+ u1, u2 to ur and then a
+matrix with the sigmas. 
+ Everything now is going
+to be in that little part 
+ of the blackboard. 
+ Do you see that this
+equation says what I'm 
+ trying to do with my figure. 
+ A times the first basis vector
+should be sigma one times 
+ the other basis -- the
+other first basis vector. 
+ These are the basis
+vectors in the row space, 
+ these are the basis
+vectors in the column space 
+ and these are the
+multiplying factors. 
+ So Av2 is sigma two times
+u2, Avr is sigma r times ur. 
+ And then we've got a whole lot
+of zeroes and maybe some zeroes 
+ at the end, but that's
+the heart of it. 
+ And now if I express that in -- 
+ as matrices, because you
+knew that was coming -- 
+ that's what I have. 
+ So, this is my goal, to
+find an orthogonal basis 
+ in the orthonormal, even
+-- basis in the row space 
+ and an orthonormal basis in the
+column space so that I've sort 
+ of diagonalized the matrix. 
+ The matrix A is, like,
+getting converted 
+ to this diagonal matrix sigma. 
+ And you notice that usually
+I have to allow myself 
+ two different bases. 
+ My little comment about
+symmetric positive definite 
+ was the one case where
+it's A Q equal Q sigma, 
+ where V and U are the same Q. 
+ But mostly, you know, I'm going
+to take a matrix like -- oh, 
+ let me take a matrix like
+four four minus three three. 
+ Okay. 
+ There's a two by two matrix. 
+ It's invertible,
+so it has rank two. 
+ So I'm going to look
+for two vectors, 
+ v1 and v2 in the
+row space, and U -- 
+ so I'm going to look for
+v1, v2 in the row space, 
+ which of course is R^2. 
+ And I'm going to look for
+u1, u2 in the column space, 
+ which of course is also R^2, and
+I'm going to look for numbers 
+ sigma one and sigma two so
+that it all comes out right. 
+ So these guys are orthonormal,
+these guys are orthonormal 
+ and these are the
+scaling factors. 
+ So I'll do that example as
+soon as I get the matrix 
+ picture straight. 
+ Okay. 
+ Do you see that this
+expresses what I want? 
+ Can I just say two
+words about null spaces? 
+ If there's some
+null space, then we 
+ want to stick in a basis
+for those, for that. 
+ So here comes a basis for the
+null space, v(r+1) down to vm. 
+ So if we only had an r
+dimensional row space 
+ and the other n-r dimensions
+were in the null space -- okay, 
+ we'll take an orthogonal
+-- orthonormal basis there. 
+ No problem. 
+ And then we'll just get zeroes. 
+ So, actually, w- those
+zeroes will come out 
+ on the diagonal matrix. 
+ So I'll complete that to an
+orthonormal basis for the whole 
+ space, R^m. 
+ I complete this to an
+orthonormal basis for the whole 
+ space R^n and I complete
+that with zeroes. 
+ Null spaces are no problem here. 
+ So really the true problem
+is in a matrix like that, 
+ which isn't symmetric, so I
+can't use its eigenvectors, 
+ they're not orthogonal -- 
+ but somehow I have to get
+these orthogonal -- in fact, 
+ orthonormal guys
+that make it work. 
+ I have to find these orthonormal
+guys, these orthonormal guys 
+ and I want Av1 to be sigma one
+u1 and Av2 to be sigma two u2. 
+ Okay. 
+ That's my goal. 
+ Here's the matrices that
+are going to get me there. 
+ Now these are
+orthogonal matrices. 
+ I can put that -- if I multiply
+on both sides by V inverse, 
+ I have A equals U
+sigma V inverse, 
+ and of course you know the
+other way I can write V inverse. 
+ This is one of those
+square orthogonal matrices, 
+ so it's the same as
+U sigma V transpose. 
+ Okay. 
+ Here's my problem. 
+ I've got two orthogonal
+matrices here. 
+ And I don't want to
+find them both at once. 
+ So I want to cook up
+some expression that 
+ will make the Us disappear. 
+ I would like to make the
+Us disappear and leave me 
+ only with the Vs. 
+ And here's how to do it. 
+ It's the same combination
+that keeps showing up 
+ whenever we have a general
+rectangular matrix, 
+ then it's A transpose A,
+that's the great matrix. 
+ That's the great matrix. 
+ That's the matrix
+that's symmetric, 
+ and in fact positive
+definite or at least 
+ positive semi-definite. 
+ This is the matrix with nice
+properties, so let's see what 
+ will it be? 
+ So if I took the transpose,
+then, I would have -- 
+ A transpose A will be what? 
+ What do I have? 
+ If I transpose that I have V
+sigma transpose U transpose, 
+ that's the A transpose. 
+ Now the A -- 
+ and what have I got? 
+ Looks like worse, because it's
+got six things now together, 
+ but it's going to collapse
+into something good. 
+ What does U transpose
+U collapse into? 
+ I, the identity. 
+ So that's the key point. 
+ This is the identity and
+we don't have U anymore. 
+ And sigma transpose
+times sigma, those 
+ are diagonal matrixes,
+so their product is just 
+ going to have sigma
+squareds on the diagonal. 
+ So do you see what
+we've got here? 
+ This is V times this
+easy matrix sigma 
+ one squared sigma two
+squared times V transpose. 
+ This is the A transpose A. 
+ This is -- let me copy down -- 
+ A transpose A is that. 
+ Us are out of the picture, now. 
+ I'm only having to choose the
+Vs, and what are these Vs? 
+ And what are these sigmas? 
+ Do you know what the Vs are? 
+ They're the eigenvectors
+that -- see, 
+ this is a perfect
+eigenvector, eigenvalue, 
+ Q lambda Q transpose for
+the matrix A transpose A. 
+ A itself is nothing special. 
+ But A transpose A
+will be special. 
+ It'll be symmetric
+positive definite, 
+ so this will be its eigenvectors
+and this'll be its eigenvalues. 
+ And the eigenvalues'll be
+positive because this thing's 
+ positive definite. 
+ So this is my method. 
+ This tells me what the Vs are. 
+ And how I going to find the Us? 
+ Well, one way would be
+to look at A A transpose. 
+ Multiply A by A transpose
+in the opposite order. 
+ That will stick the
+Vs in the middle, 
+ knock them out, and
+leave me with the Us. 
+ So here's the overall
+picture, then. 
+ The Vs are the eigenvectors
+of A transpose A. 
+ The Us are the
+eigenvectors of A A 
+ transpose, which are different. 
+ And the sigmas are
+the square roots 
+ of these and the
+positive square roots, 
+ so we have positive sigmas. 
+ Let me do it for that example. 
+ This is really what
+you should know 
+ and be able to do for the SVD. 
+ Okay. 
+ Let me take that matrix. 
+ So what's my first step? 
+ Compute A transpose A, because
+I want its eigenvectors. 
+ Okay. 
+ So I have to compute
+A transpose A. 
+ So A transpose is four
+four minus three three, 
+ and A is four four
+minus three three, 
+ and I do that multiplication
+and I get sixteen -- 
+ I get twenty five -- 
+ I get sixteen minus nine -- 
+ is that seven? 
+ And it better come
+out symmetric. 
+ And -- oh, okay, and
+then it comes out 25. 
+ Okay. 
+ So, I want its eigenvectors
+and its eigenvalues. 
+ Its eigenvectors will be
+the Vs, its eigenvalues 
+ will be the squares
+of the sigmas. 
+ Okay. 
+ What are the eigenvalues and
+eigenvectors of this guy? 
+ Have you seen that two by two
+example enough to recognize 
+ that the eigenvectors are --
+that one one is an eigenvector? 
+ So this here is A transpose A. 
+ I'm looking for
+its eigenvectors. 
+ So its eigenvectors, I think,
+are one one and one minus one, 
+ because if I
+multiply that matrix 
+ by one one, what do I get? 
+ If I multiply that matrix
+by one one, I get 32 32, 
+ which is 32 of one one. 
+ So there's the
+first eigenvector, 
+ and there's the eigenvalue
+for A transpose A. 
+ So I'm going to take its
+square root for sigma. 
+ Okay. 
+ What's the eigenvector
+that goes -- 
+ eigenvalue that
+goes with this one? 
+ If I do that multiplication,
+what do I get? 
+ I get some multiple of one minus
+one, and what is that multiple? 
+ Looks like 18. 
+ Okay. 
+ So those are the two
+eigenvectors, but -- oh, 
+ just a moment, I
+didn't normalize them. 
+ To make everything
+absolutely right, 
+ I ought to normalize
+these eigenvectors, 
+ divide by their length,
+square root of two. 
+ So all these guys should be true
+unit vectors and, of course, 
+ that normalization didn't
+change the 32 and the 18. 
+ Okay. 
+ So I'm happy with the Vs. 
+ Here are the Vs. 
+ So now let me put
+together the pieces here. 
+ Here's my A. 
+ Here's my A. 
+ Let me write down A again. 
+ If life is right, we should get
+U, which I don't yet know -- 
+ U I don't yet know,
+sigma I do now know. 
+ What's sigma? 
+ So I'm looking for a
+U sigma V transpose. 
+ U, the diagonal guy
+and V transpose. 
+ Okay. 
+ Let's just see that
+come out right. 
+ So what are the sigmas? 
+ They're the square
+roots of these things. 
+ So square root of 32
+and square root of 18. 
+ Zero zero. 
+ Okay. 
+ What are the Vs? 
+ They're these two. 
+ And I have to transpose -- 
+ maybe that just
+leaves me with ones -- 
+ with one over square root of two
+in that row and the other one 
+ is one over square
+root of two minus one 
+ over square root of two. 
+ Now finally, I've
+got to know the Us. 
+ Well, actually, one way to do --
+since I now know all the other 
+ pieces, I could put those
+together and figure out what 
+ the Us are. 
+ But let me do it the
+A A transpose way. 
+ Okay. 
+ Find the Us now. 
+ u1 and u2. 
+ And what are they? 
+ I look at A A transpose -- 
+ so A is supposed to be U
+sigma V transpose, and then 
+ when I transpose that I get V
+sigma transpose U transpose. 
+ So I'm just doing it
+in the opposite order, 
+ A times A transpose, and
+what's the good part here? 
+ That in the middle, V transpose
+V is going to be the identity. 
+ So this is just U
+sigma sigma transpose, 
+ that's some diagonal matrix with
+sigma squareds and U transpose. 
+ So what I seeing here? 
+ I'm seeing here, again, a
+symmetric positive definite 
+ or at least semi-definite
+matrix and I'm 
+ seeing its eigenvectors
+and its eigenvalues. 
+ So if I compute A A
+transpose, its eigenvectors 
+ will be the things
+that go into U. 
+ Okay, so I need to
+compute A A transpose. 
+ I guess I'm going
+to have to go -- 
+ can I move that
+up just a little? 
+ Maybe a little more
+and do A A transpose. 
+ So what's A? 
+ Four four minus three and three. 
+ And what's A transpose? 
+ Four four minus three and three. 
+ And when I do that
+multiplication, what do I get? 
+ Sixteen and sixteen, thirty two. 
+ Uh, that one comes out zero. 
+ Oh, so this is a lucky case
+and that one comes out 18. 
+ So this is an accident
+that A A transpose 
+ happens to come out diagonal, so
+we know easily its eigenvectors 
+ and eigenvalues. 
+ So its eigenvectors -- what's
+the first eigenvector for this 
+ A A transpose matrix? 
+ It's just one zero, and when
+I do that multiplication, 
+ I get 32 times one zero. 
+ And the other eigenvector
+is just zero one 
+ and when I multiply
+by that I get 18. 
+ So this is A A transpose. 
+ Multiplying that gives
+me the 32 A A transpose. 
+ Multiplying this guy
+gives me First of all, 
+ I got 32 and 18 again. 
+ Am I surprised? 
+ You know, it's clearly
+not an accident. 
+ The eigenvalues of A A
+transpose were exactly the same 
+ as the eigenvalues of --
+this one was A transpose A. 
+ That's no surprise at all. 
+ The eigenvalues of A B are the
+same as the eigenvalues of B A. 
+ That's a very nice
+fact, that eigenvalues 
+ stay the same if I switch
+the order of multiplication. 
+ So no surprise to see
+32 and What I learned -- 
+ first the check that things
+were numerically correct, 
+ but now I've learned
+these eigenvectors, 
+ and actually they're
+about as nice as can be. 
+ They're the best orthogonal
+matrix, just the identity. 
+ Okay. 
+ So my claim is that it
+ought to all fit together, 
+ that these numbers
+should come out right. 
+ The numbers should
+come out right 
+ because the matrix
+multiplications use 
+ the properties that we want. 
+ Okay. 
+ Shall we just check that? 
+ Here's the identity, so
+not doing anything -- 
+ square root of 32 is
+multiplying that row, 
+ so that square root of 32
+divided by square root of two 
+ means square root of
+16, four, correct? 
+ And square root of 18 is
+divided by square root of two, 
+ so that leaves me square root
+of 9, which is three, but -- 
+ well, Professor Strang,
+you see the problem? 
+ Why is that -- 
+ okay. 
+ Why I getting minus
+three three here 
+ and here I'm getting
+three minus three? 
+ Phooey. 
+ I don't know why. 
+ It shouldn't have
+happened, but it did. 
+ Now, okay, you could
+say, well, just -- 
+ the eigenvector
+there could have -- 
+ I could have had the minus
+sign here for that eigenvector, 
+ but I'm not happy about that. 
+ Hmm. 
+ Okay. 
+ So I realize there's a
+little catch here somewhere 
+ and I may not see
+it until Wednesday. 
+ Which then gives you a
+very important reason 
+ to come back on Wednesday, to
+catch that sine difference. 
+ So what did I do illegally? 
+ I think I put the eigenvectors
+in that matrix V transpose -- 
+ okay, I'm going
+to have to think. 
+ Why did that come out with
+with the opposite sines? 
+ So you see -- 
+ I mean, if I had a minus
+there, I would be all right, 
+ but I don't want that. 
+ I want positive entries down
+the diagonal of sigma squared. 
+ Okay. 
+ It'll come to me, but, I'm
+going to leave this example 
+ to finish. 
+ Okay. 
+ And the beauty of,
+these sliding boards 
+ is I can make that go away. 
+ Can I,-- let me not
+do it, though, yet. 
+ Let me take a second example. 
+ Let me take a second example
+where the matrix is singular. 
+ So rank one. 
+ Okay, so let me take
+as an example two, 
+ where my matrix A is going
+to be rectangular again -- 
+ let me just make it
+four three eight six. 
+ Okay. 
+ That's a rank one matrix. 
+ So that has a null space and
+only a one dimensional row 
+ space and column space. 
+ So actually, my picture
+becomes easy for this matrix, 
+ because what's my row
+space for this one? 
+ So this is two by two. 
+ So my pictures are
+both two dimensional. 
+ My row space is all multiples
+of that vector four three. 
+ So the whole -- the row
+space is just a line, right? 
+ That's the row space. 
+ And the null space, of course,
+is the perpendicular line. 
+ So the row space for this matrix
+is multiples of four three. 
+ Typical row. 
+ Okay. 
+ What's the column space? 
+ The columns are all multiples of
+four eight, three six, one two. 
+ The column space, then, goes
+in, like, this direction. 
+ So the column space -- 
+ when I look at those
+columns, the column space -- 
+ so it's only one dimensional,
+because the rank is one. 
+ It's multiples of four eight. 
+ Okay. 
+ And what's the null
+space of A transpose? 
+ It's the perpendicular guy. 
+ So this was the null
+space of A and this is 
+ the null space of A transpose. 
+ Okay. 
+ What I want to say here is that
+choosing these orthogonal bases 
+ for the row space and the column
+space is, like, no problem. 
+ They're only one dimensional. 
+ So what should V be? 
+ V should be -- v1, but
+-- yes, v1, rather -- 
+ v1 is supposed to
+be a unit vector. 
+ There's only one
+v1 to choose here, 
+ only one dimension
+in the row space. 
+ I just want to make
+it a unit vector. 
+ So v1 will be -- 
+ it'll be this vector, but made
+into a unit vector, so four -- 
+ point eight point six. 
+ Four fifths, three fifths. 
+ And what will be u1? 
+ u1 will be the
+unit vector there. 
+ So I want to turn four eight
+or one two into a unit vector, 
+ so u1 will be -- 
+ let's see, if it's one two,
+then what multiple of one two 
+ do I want? 
+ That has length
+square root of five, 
+ so I have to divide by
+square root of five. 
+ Let me complete
+the singular value 
+ decomposition for this matrix. 
+ So this matrix, four
+three eight six, is -- 
+ so I know what u1 -- 
+ here's A and I want to get U
+the basis in the column space. 
+ And it has to start
+with this guy, one 
+ over square root of five two
+over square root of five. 
+ Then I want the sigma. 
+ Okay. 
+ What are we expecting
+now for sigma? 
+ This is only a rank one matrix. 
+ We're only expecting a sigma
+one, which I have to find, 
+ but zeroes here. 
+ Okay. 
+ So what's sigma one? 
+ It should be the -- 
+ where did these
+sigmas come from? 
+ They came from A
+transpose A, so I -- 
+ can I do that little
+calculation over here? 
+ A transpose A is four three --
+four three eight six times four 
+ three eight six. 
+ This had better -- this
+is a rank one matrix, 
+ this is going to be -- the
+whole thing will have rank one, 
+ that's 16 and 64 is 80, 12
+and 48 is 60, 12 and 48 is 60, 
+ 9 and 36 is 45. 
+ Okay. 
+ It's a rank one matrix. 
+ Of course. 
+ Every row is a
+multiple of four three. 
+ And what's the eigen -- what are
+the eigenvalues of that matrix? 
+ So this is the calculation
+-- this is like practicing, 
+ now. 
+ What are the eigenvalues
+of this rank one matrix? 
+ Well, tell me one eigenvalue,
+since the rank is only one, 
+ one eigenvalue is
+going to be zero. 
+ And then you know that
+the other eigenvalue 
+ is going to be a
+hundred and twenty five. 
+ So that's sigma squared,
+right, in A transpose A. 
+ So this will be the square root
+of a hundred and twenty five. 
+ And then finally,
+the V transpose -- 
+ the Vs will be -- 
+ there's v1, and what's v2? 
+ What's v2 in the -- 
+ how do I make this into
+an orthonormal basis? 
+ Well, v2 is, in the
+null space direction. 
+ It's perpendicular to that,
+so point six and minus point 
+ eight. 
+ So those are the
+Vs that go in here. 
+ Point eight, point six and
+point six minus point eight. 
+ Okay. 
+ And I guess I better
+finish this guy. 
+ So this guy, all I want is to
+complete the orthonormal basis 
+ -- it'll be coming from there. 
+ It'll be a two over square
+root of five and a minus one 
+ over square root of five. 
+ Let me take square root
+of five out of that matrix 
+ to make it look better. 
+ So one over square root of five
+times one two two minus one. 
+ Okay. 
+ So there I have -- including
+the square root of five -- 
+ that's an orthogonal matrix,
+that's an orthogonal matrix, 
+ that's a diagonal matrix
+and its rank is only one. 
+ And now if I do
+that multiplication, 
+ I pray that it comes out right. 
+ The square root of
+five will cancel 
+ into that square
+root of one twenty 
+ five and leave me with the
+square root of 25, which 
+ is five, and five will
+multiply these numbers 
+ and I'll get whole numbers
+and out will come A. 
+ Okay. 
+ That's like a second example
+showing how the null space guy 
+ -- so this -- this vector
+and this one were multiplied 
+ by this zero. 
+ So they were easy to deal with. 
+ Tthe key ones are the ones in
+the column space and the row 
+ space. 
+ Do you see how I'm getting
+columns here, diagonal here, 
+ rows here, coming
+together to produce A. 
+ Okay, that's the singular
+value decomposition. 
+ So, let me think what I want
+to add to complete this topic. 
+ So that's two examples. 
+ And now let's think
+what we're really doing. 
+ We're choosing the right
+basis for the four subspaces 
+ of linear algebra. 
+ Let me write this down. 
+ So v1 up to vr is an orthonormal
+basis for the row space. 
+ u1 up to ur is an orthonormal
+basis for the column space. 
+ And then I just finish
+those out by v(r+1), 
+ the rest up to vn is an
+orthonormal basis for the null 
+ space. 
+ And finally, u(r+1) up to is an
+orthonormal basis for the null 
+ space of A transpose. 
+ Do you see that we finally
+got the bases right? 
+ They're right because they're
+orthonormal, and also -- 
+ again, Graham Schmidt would
+have done this in chapter four. 
+ Here we needed eigenvalues,
+because these bases 
+ make the matrix diagonal. 
+ A times V I is a
+multiple of U I. 
+ So I'll put "and" -- 
+ the matrix has
+been made diagonal. 
+ When we choose these bases,
+there's no coupling between Vs 
+ and no coupling between Us. 
+ Each A -- A times each
+V is in the direction 
+ of the corresponding U. 
+ So it's exactly the
+right basis for the four 
+ fundamental subspaces. 
+ And of course, their
+dimensions are what we know. 
+ The dimension of
+the row space is 
+ the rank r, and so is the
+dimension of the column space. 
+ The dimension of
+the null space is 
+ n-r, that's how many
+vectors we need, 
+ and m-r basis vectors for the
+left null space, the null space 
+ of A transpose. 
+ Okay. 
+ I'm going to stop there. 
+ I could develop
+further from the SVD, 
+ but we'll see it again
+in the very last lectures 
+ of the course. 
+ So there's the SVD. 
+ Thanks. 
+ 
+ 

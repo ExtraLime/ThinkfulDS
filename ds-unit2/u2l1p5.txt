@@ -1,0 +1,16 @@
+Categorize each of the variables in the ESS dataset as categorical or continuous, 
+and if continuous as ordinal, interval, or ratio variables. Check your work with your mentor,
+
+1. 'Cntry' - Country. Type: Categorical
+2. 'Year' - ESS round. Type: Continuous Interval
+3. 'idno' - Identification Number. Type: Categorical
+4. 'tvtot' - Tv Watching (avg weekday)0-7. Type: Continous Ratio
+5. 'ppltrst' - Scale 0-10 trust. Type: Continuous Ratio
+6. 'pplfair' - Scale 0-10 fair.Type: Continuous Ratio
+7. 'pplhlp' - Scale 0-10 help. Type: Continuous Ratio
+8. 'happy' - Scale 0-10 happy. Type: Continuous Ratio
+9. 'sclmeet' - Scale 0-7 meet up . Type: Continuous Ratio
+10. 'sclact' - Scale 0-5 social act. Type: Continuous Ordinal
+11. 'gndr' - Gender M/F. Type: Categorical
+12. 'agea' - Age. Type: Continuous Ratio
+13. 'partner' - lives with/not. Type: Categorical

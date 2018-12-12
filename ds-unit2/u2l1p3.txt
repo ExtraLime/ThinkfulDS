@@ -1,0 +1,44 @@
+Categorize each of the following research questions as "good" or "bad", and provide alternative formulations for the bad ones. 
+
+1. What is the 1994 rate of juvenile delinquency in the U.S.?
+Category "Bad":
+    There is not much to model. A simple query and you have the answer.
+ Alternative formulation:
+    "Why was the juvenile delinquency rate *x* in 1994?"
+    
+2. What can we do to reduce juvenile delinquency in the U.S?
+ Category "Better":
+    Still too vague.
+    
+3. Does education play a role in reducing juvenile delinquents' return to crime?
+ Category "Good"
+  
+4. How many customers does AT&T currently serve in Washington, DC?
+ Category "Bad"
+ Alternative formulation:
+    "What is the rate of change of the customer base year to year until now"
+ 
+5. What factors lead consumers to choose AT&T over other service providers?
+ Category "Good":
+ 
+6. How can AT&T attract more customers?
+ Category "Bad":
+ Alternative formulation:
+    See 5.
+7. Why did the Challenger Shuttle explode?
+ Category "Bad":
+   Too broad
+ Alternative formulation:
+   https://www.google.com/search?q=Why+did+the+sapceshuttle+challanger+explode
+    
+8. Which genes are associated with increased risk of breast cancer?
+ Category "Good"
+
+9. Is it better to read to children at night or in the morning?
+ Category "Bad"
+ Alternative formulation:
+ "How does reading to children in the morning vs at night, affect prerformance at school?"
+10. How does Google’s search algorithm work?
+ Category "Bad"
+ Alternative formulation:
+   "How can search results be optimized by structuring queries?"

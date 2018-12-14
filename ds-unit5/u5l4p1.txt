@@ -1,0 +1,66 @@
+For each of the following, indicate the best question type to use and why.
+
+    Age
+    Gender
+    Income
+    Opinions about dish soap
+    Brand of dish soap used
+    Preference for dish soap brand (Cleany, Sudsy, DeGreaser, Pinesoft)
+    Positive vs negative feelings about dish soap
+
+Age :
+   - write in:
+       if you want the exact age.
+   - multiple choice chose one:
+     ex: 0-18,19-25,26-45,
+Gender:
+    multiple choice choose one
+    male,female,non-binary,other,etc
+ 
+Income:
+     write in (exact)
+     multiple choice, chose one (binning)
+     constant sum  (distribution of incomes)
+
+Opinions about dish soap:
+    write in:
+        for raw feedback
+    ranking:
+        for brand types, characteristics
+        
+Preference for dishsoap brand:
+    write in - (exact)
+    ranking - (multiple soaps)
+    multiple choice::chose one/chose many - 
+    
+Positive vs Negative feelings about dishsoap:
+    true false
+    rating
+    ranking
+    
+    
+    
+Find the Flaw
+    
+   1. Do you trust the mainstream media to put the interests of Americans first?
+    s/b two questions 
+        1.Should the media put the interest of americans first
+        2.Do you trust the media to do that
+    
+   2. Do you feel that the media is too eager to slur conservatives with baseless accusations of racism and sexism?
+       This assumes you agree that the media slurs GOP with baseless...
+       This could be two questions:
+       1. Does the media slur /baseless...
+       2. Are they too quick to do it
+   
+   3. Do you believe the media fails to report on Democrats’ scandals?
+       A less bias way of asking could be:
+       "Do you believe that the media reports scandals of dems and republicans evenly"
+       -or-
+       "Which party's scandals does the media fail report on"
+       
+   4. Do you believe that the media purposely tries to divide Republicans in order to help elect Democrats?
+       "which party to you believe the media /helps...?"
+       
+   5. Do you believe that the media holds Democrats to a different standard than Republicans?
+        Does the media hold both parties to the same standard
